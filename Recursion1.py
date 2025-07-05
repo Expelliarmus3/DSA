@@ -1,6 +1,6 @@
 count=0
 def fact(N):
-    if N==0:
+    if N==0 or N==1:
         return 1
     return N*fact(N-1)
 def rec():
